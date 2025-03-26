@@ -1,6 +1,9 @@
 * Designplan
+A simple game for learning a bit of python and how to use git and github together. This document is for making some sort of starting outline of the project.
 ** Overview
-A text based game where you create a character and fight monsters one by one until you win or until you die
+A text based game where you create a character and fight monsters one by one until you win or until you die. 
+*** Design in the form of questions:
+How much is rng?
 ** Classes
 *** Character
 *** Monster
