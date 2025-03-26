@@ -4,3 +4,6 @@ A text based game where you create a character and fight monsters one by one unt
 ** Classes
 *** Character
 *** Monster
+*** Item
+**** offhand
+**** mainhand
