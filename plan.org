@@ -1,0 +1,6 @@
+* Designplan
+** Overview
+A text based game where you create a character and fight monsters one by one until you win or until you die
+** Classes
+*** Character
+*** Monster
