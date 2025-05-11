@@ -1,7 +1,7 @@
 import Math
 
 class Cirkle:
-    def __init__(self, d: int)):
+    def __init__(self, d: int):
  self.radie r = d/2
 
  def area()
