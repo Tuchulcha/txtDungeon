@@ -1,0 +1,505 @@
+Welcome to the Emacs shell
+
+~/pymacs/py-cs50 $ opython3 Cirkle.py
+Hi let's try and calculate the surcomfrence of a cirkle or the area. What is the diameter of said cirle?5
+Traceback (most recent call last):
+  File "/home/ybwr/pymacs/py-cs50/Cirkle.py", line 5, in <module>
+    radie = radie/2
+            ~~~~~^~
+TypeError: unsupported operand type(s) for /: 'str' and 'int'
+~/pymacs/py-cs50 $ python3 Cirkle.py
+Hi let's try and calculate the surcomfrence of a cirkle or the area. What is the diameter of said cirle?5
+5
+~/pymacs/py-cs50 $ python3 Cirkle.py
+  File "/home/ybwr/pymacs/py-cs50/Cirkle.py", line 5
+    int r = print (radie)
+        ^
+SyntaxError: invalid syntax
+~/pymacs/py-cs50 $ python3 Cirkle.py
+  File "/home/ybwr/pymacs/py-cs50/Cirkle.py", line 5
+    int r = radie
+        ^
+SyntaxError: invalid syntax
+~/pymacs/py-cs50 $ python3 Cirkle.py
+  File "/home/ybwr/pymacs/py-cs50/Cirkle.py", line 5
+    int r = type(int(radie))
+        ^
+SyntaxError: invalid syntax
+~/pymacs/py-cs50 $ python3 Cirkle.py
+Hi let's try and calculate the surcomfrence of a cirkle or the area. What is the diameter of said cirle?55
+55
+~/pymacs/py-cs50 $ python3 Cirkle.py
+Hi let's try and calculate the surcomfrence of a cirkle or the area. What is the diameter of said cirle?4
+4
+~/pymacs/py-cs50 $ python3 Cirkle.py
+Hi let's try and calculate the surcomfrence of a cirkle or the area. What is the diameter of said cirle?5
+5
+~/pymacs/py-cs50 $ python3 Cirkle.py
+Hi let's try and calculate the surcomfrence of a cirkle or the area. What is the diameter of said cirkle?5
+5
+~/pymacs/py-cs50 $ python3 Cirkle.py
+Hi let's try and calculate the surcomfrence of a cirkle or the area. What is the diameter of said cirkle?10
+10
+~/pymacs/py-cs50 $ python3 Cirkle.py
+Hi let's try and calculate the surcomfrence of a cirkle or the area. What is the diameter of said cirkle?10
+5.0
+~/pymacs/py-cs50 $ python3 Cirkle.py
+Traceback (most recent call last):
+  File "/home/ybwr/pymacs/py-cs50/Cirkle.py", line 7, in <module>
+    radie_float = float(radie_str)
+                  ^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: '.py'
+~/pymacs/py-cs50 $ python3 Cirkle.py
+Hi let's try and calculate the surcomfrence of a cirkle or the area./nWhat is the diameter of said cirkle? 3
+1.5
+~/pymacs/py-cs50 $ python3 Cirkle.py
+  File "/home/ybwr/pymacs/py-cs50/Cirkle.py", line 5
+    radie_str = input("Hi let's try and calculate the surcomfrence of a cirkle or the area.
+                      ^
+SyntaxError: unterminated string literal (detected at line 5)
+~/pymacs/py-cs50 $ python3 Cirkle.py
+Hi let's try and calculate the surcomfrence of a cirkle or the area.
+What is the diameter of said cirkle? 5
+2.5
+~/pymacs/py-cs50 $ python3 Cirkle.py
+Hi let's try and calculate the surcomfrence of a cirkle or the area.
+What is the diameter of said cirkle? 
+python3 Cirkle.py
+Traceback (most recent call last):
+  File "/home/ybwr/pymacs/py-cs50/Cirkle.py", line 7, in <module>
+    radie_float = float(radie_str)
+                  ^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'python3 Cirkle.py'
+~/pymacs/py-cs50 $ python3 Cirkle.py
+Hi let's try and calculate the surcomfrence of a cirkle OR the area.
+What is the diameter of said cirkle? 
+5
+2.5
+~/pymacs/py-cs50 $ python3 Cirkle.py
+  File "/home/ybwr/pymacs/py-cs50/Cirkle.py", line 10
+    choose_area_or_surcomfrence = input("Do you wish to know the area or the surcomference?\n"
+                                       ^
+SyntaxError: '(' was never closed
+~/pymacs/py-cs50 $ python3 Cirkle.py
+  File "/home/ybwr/pymacs/py-cs50/Cirkle.py", line 17
+    print cirkle_area
+    ^^^^^^^^^^^^^^^^^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(...)?
+~/pymacs/py-cs50 $ python3 Cirkle.py
+Hi let's try and calculate the surcomfrence of a cirkle OR the area.
+What is the diameter of said cirkle? 
+5
+Do you wish to know the area or the surcomference?
+area
+3.141592653589793
+2.5
+~/pymacs/py-cs50 $ python3 Cirkle.py
+Hi let's try and calculate the cirkumference of a cirkle OR the area.
+What is the diameter of said cirkle? 
+45
+Do you wish to know the area or the cirkumference?
+area
+3.141592653589793
+22.5
+~/pymacs/py-cs50 $ python3 Cirkle.py
+  File "/home/ybwr/pymacs/py-cs50/Cirkle.py", line 14
+    cirkle_area = (math.pi)²*(radie_float)²
+                           ^
+SyntaxError: invalid character '²' (U+00B2)
+~/pymacs/py-cs50 $ python3 Cirkle.py
+Hi let's try and calculate the circumference of a cirkle OR the area.
+What is the diameter of said cirkle? 
+5
+Do you wish to know the area or the circumference?
+area
+Traceback (most recent call last):
+  File "/home/ybwr/pymacs/py-cs50/Cirkle.py", line 14, in <module>
+    cirkle_area = (math.pi)^2*(radie_float)^2
+                  ~~~~~~~~~^~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for ^: 'float' and 'float'
+~/pymacs/py-cs50 $ opython3 Cirkle.py
+opython3: command not found
+~/pymacs/py-cs50 $ python3 Cirkle.py
+/home/ybwr/pymacs/py-cs50/Cirkle.py:14: SyntaxWarning: 'int' object is not callable; perhaps you missed a comma?
+  cirkle_area = (math.pi)**2(radie_float)**2
+Hi let's try and calculate the circumference of a cirkle OR the area.
+What is the diameter of said cirkle? 
+5
+Do you wish to know the area or the circumference?
+area
+Traceback (most recent call last):
+  File "/home/ybwr/pymacs/py-cs50/Cirkle.py", line 14, in <module>
+    cirkle_area = (math.pi)**2(radie_float)**2
+                             ^^^^^^^^^^^^^^
+TypeError: 'int' object is not callable
+~/pymacs/py-cs50 $ python3 Cirkle.py
+Hi let's try and calculate the circumference of a cirkle OR the area.
+What is the diameter of said cirkle? 
+4
+Do you wish to know the area or the circumference?
+aa
+39.47841760435743
+2.0
+~/pymacs/py-cs50 $ python3 Cirkle.py
+Hi let's try and calculate the circumference of a cirkle OR the area.
+What is the diameter of said cirkle? 
+5
+Traceback (most recent call last):
+  File "/home/ybwr/pymacs/py-cs50/Cirkle.py", line 7, in <module>
+    radie_float = float((radie_str)/2)
+                        ~~~~~~~~~~~^~
+TypeError: unsupported operand type(s) for /: 'str' and 'int'
+~/pymacs/py-cs50 $ python3 Cirkle.py
+Hi let's try and calculate the circumference of a cirkle OR the area.
+What is the diameter of said cirkle? 
+5
+Traceback (most recent call last):
+  File "/home/ybwr/pymacs/py-cs50/Cirkle.py", line 7, in <module>
+    radie_float = float(((radie_str))/2)
+                        ~~~~~~~~~~~~~^~
+TypeError: unsupported operand type(s) for /: 'str' and 'int'
+~/pymacs/py-cs50 $ python3 Cirkle.py
+  File "/home/ybwr/pymacs/py-cs50/Cirkle.py", line 8
+    radie_float = (radie_float)(/2)
+                                ^
+SyntaxError: invalid syntax
+~/pymacs/py-cs50 $ python3 Cirkle.py
+Hi let's try and calculate the circumference of a cirkle OR the area.
+What is the diameter of said cirkle? 
+4
+Traceback (most recent call last):
+  File "/home/ybwr/pymacs/py-cs50/Cirkle.py", line 8, in <module>
+    radie_float = (radie_float)/2
+                  ~~~~~~~~~~~~~^~
+TypeError: unsupported operand type(s) for /: 'str' and 'int'
+~/pymacs/py-cs50 $ python3 Cirkle.py
+Hi let's try and calculate the circumference of a cirkle OR the area.
+What is the diameter of said cirkle? 
+3
+Do you wish to know the area or the circumference?
+a
+22.206609902451056
+1.5
+~/pymacs/py-cs50 $ python3 Cirkle.py
+  File "/home/ybwr/pymacs/py-cs50/Cirkle.py", line 10
+    choose_area_or_surcomfrence = (casefold(input("Do you wish to know the area or the circumference?\n"))
+                                  ^
+SyntaxError: '(' was never closed
+~/pymacs/py-cs50 $ python3 Cirkle.py
+Hi let's try and calculate the circumference of a cirkle OR the area.
+What is the diameter of said cirkle? 
+4
+Traceback (most recent call last):
+  File "/home/ybwr/pymacs/py-cs50/Cirkle.py", line 10, in <module>
+    choose_area_or_surcomfrence = (casefold(input("Do you wish to know the area or the circumference?\n")))
+                                   ^^^^^^^^
+NameError: name 'casefold' is not defined
+~/pymacs/py-cs50 $ python3 Cirkle.py
+Hi let's try and calculate the circumference of a cirkle OR the area.
+What is the diameter of said cirkle? 
+4
+Traceback (most recent call last):
+  File "/home/ybwr/pymacs/py-cs50/Cirkle.py", line 10, in <module>
+    choose_area_or_surcomfrence = (string.casefold(input("Do you wish to know the area or the circumference?\n")))
+                                   ^^^^^^
+NameError: name 'string' is not defined. Did you forget to import 'string'?
+~/pymacs/py-cs50 $ python3 Cirkle.py
+Hi let's try and calculate the circumference of a cirkle OR the area.
+What is the diameter of said cirkle? 
+4
+Do you wish to know the area or the circumference?
+aaafg
+39.47841760435743
+2.0
+~/pymacs/py-cs50 $ python3 Cirkle.py
+Hi let's try and calculate the circumference of a cirkle OR the area.
+What is the diameter of said cirkle? 
+88
+Do you wish to know the area or the circumference?
+Area
+Traceback (most recent call last):
+  File "/home/ybwr/pymacs/py-cs50/Cirkle.py", line 12, in <module>
+    print (choose_area_or_circomference)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'choose_area_or_circomference' is not defined. Did you mean: 'choose_area_or_circomfrence'?
+~/pymacs/py-cs50 $ python3 Cirkle.py
+Hi let's try and calculate the circumference of a cirkle OR the area.
+What is the diameter of said cirkle? 
+55
+Do you wish to know the area or the circumference?
+Rea
+Rea
+7463.888328323827
+27.5
+~/pymacs/py-cs50 $ python3 Cirkle.py
+Hi let's try and calculate the circumference of a cirkle OR the area.
+What is the diameter of said cirkle? 
+44
+Do you wish to know the area or the circumference?
+Area
+Traceback (most recent call last):
+  File "/home/ybwr/pymacs/py-cs50/Cirkle.py", line 12, in <module>
+    choice = choose_area-or_circomference.lower
+             ^^^^^^^^^^^
+NameError: name 'choose_area' is not defined
+~/pymacs/py-cs50 $ python3 Cirkle.py
+Hi let's try and calculate the circumference of a cirkle OR the area.
+What is the diameter of said cirkle? 
+33
+Do you wish to know the area or the circumference?
+Area
+Area
+2686.9997981965776
+16.5
+~/pymacs/py-cs50 $ python3 Cirkle.py
+  File "/home/ybwr/pymacs/py-cs50/Cirkle.py", line 12
+    choice = choose_area_or_circomference.lower()XS
+                                                 ^^
+SyntaxError: invalid syntax
+~/pymacs/py-cs50 $ python3 Cirkle.py
+Hi let's try and calculate the circumference of a cirkle OR the area.
+What is the diameter of said cirkle? 
+22
+Do you wish to know the area or the circumference?
+Area
+Area
+1194.2221325318123
+11.0
+~/pymacs/py-cs50 $ python3 Cirkle.py
+Hi let's try and calculate the circumference of a cirkle OR the area.
+What is the diameter of said cirkle? 
+11
+Do you wish to know the area or the circumference?
+Area
+area
+298.5555331329531
+5.5
+~/pymacs/py-cs50 $ python3 Cirkle.py
+  File "/home/ybwr/pymacs/py-cs50/Cirkle.py", line 14
+    if "area" in choise
+                       ^
+SyntaxError: expected ':'
+~/pymacs/py-cs50 $ python3 Cirkle.py
+  File "/home/ybwr/pymacs/py-cs50/Cirkle.py", line 14
+    if "area" in choise
+                       ^
+SyntaxError: expected ':'
+~/pymacs/py-cs50 $ python3 Cirkle.py
+  File "/home/ybwr/pymacs/py-cs50/Cirkle.py", line 16
+    else
+    ^^^^
+SyntaxError: invalid syntax
+~/pymacs/py-cs50 $ python3 Cirkle.py
+Hi let's try and calculate the circumference of a cirkle OR the area.
+What is the diameter of said cirkle? 
+4
+Do you wish to know the area or the circumference?
+The Area pleaze
+Traceback (most recent call last):
+  File "/home/ybwr/pymacs/py-cs50/Cirkle.py", line 14, in <module>
+    if "area" in choise:
+                 ^^^^^^
+NameError: name 'choise' is not defined. Did you mean: 'choice'?
+~/pymacs/py-cs50 $ python3 Cirkle.py
+Hi let's try and calculate the circumference of a cirkle OR the area.
+What is the diameter of said cirkle? 
+3
+Do you wish to know the area or the circumference?
+The Are Homeboy
+the are homeboy
+7.0685834705770345
+1.5
+~/pymacs/py-cs50 $ python3 Cirkle.py
+Hi let's try and calculate the circumference of a cirkle OR the area.
+What is the diameter of said cirkle? 
+12
+Do you wish to know the area or the circumference?
+The area
+The area of such circle is 
+Traceback (most recent call last):
+  File "/home/ybwr/pymacs/py-cs50/Cirkle.py", line 15, in <module>
+    print("The area of such circle is ") + print(str(cirkle_area))
+                                                     ^^^^^^^^^^^
+NameError: name 'cirkle_area' is not defined
+~/pymacs/py-cs50 $ python3 Cirkle.py
+Hi let's try and calculate the circumference of a cirkle OR the area.
+What is the diameter of said cirkle? 
+44
+Do you wish to know the area or the circumference?
+The Gaynezz
+the gaynezz
+1520.53084433746
+22.0
+~/pymacs/py-cs50 $ python3 Cirkle.py
+Hi let's try and calculate the circumference of a cirkle OR the area.
+What is the diameter of said cirkle? 
+3
+Do you wish to know the area or the circumference?
+area
+The area of such circle is 
+Traceback (most recent call last):
+  File "/home/ybwr/pymacs/py-cs50/Cirkle.py", line 15, in <module>
+    print("The area of such circle is ") + print(str(circle_area))
+                                                     ^^^^^^^^^^^
+NameError: name 'circle_area' is not defined
+~/pymacs/py-cs50 $ python3 Cirkle.py
+Hi let's try and calculate the circumference of a cirkle OR the area.
+What is the diameter of said cirkle? 
+2
+Do you wish to know the area or the circumference?
+area
+The area of such circle is 
+Traceback (most recent call last):
+  File "/home/ybwr/pymacs/py-cs50/Cirkle.py", line 20, in <module>
+    print("The area of such circle is ") + print(str(circle_area))
+                                                     ^^^^^^^^^^^
+NameError: name 'circle_area' is not defined. Did you mean: 'cirkle_area'?
+~/pymacs/py-cs50 $ python3 Cirkle.py
+Hi let's try and calculate the circumference of a cirkle OR the area.
+What is the diameter of said cirkle? 
+2
+Do you wish to know the area or the circumference?
+area
+Traceback (most recent call last):
+  File "/home/ybwr/pymacs/py-cs50/Cirkle.py", line 17, in <module>
+    choice = choose_area_or_circumference.lower()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'choose_area_or_circumference' is not defined. Did you mean: 'choose_area_or_circomference'?
+~/pymacs/py-cs50 $ python3 Cirkle.py
+Hi let's try and calculate the circumference of a circle OR the area.
+What is the diameter of said cirkle? 
+568
+Do you wish to know the area or the circumference?
+yes
+yes
+Traceback (most recent call last):
+  File "/home/ybwr/pymacs/py-cs50/Cirkle.py", line 26, in <module>
+    print (cirkle_area)
+           ^^^^^^^^^^^
+NameError: name 'cirkle_area' is not defined. Did you mean: 'circle_area'?
+~/pymacs/py-cs50 $ python3 Cirkle.py
+Hi let's try and calculate the circumference of a circle OR the area.
+What is the diameter of said cirkle? 
+python3 Cirkle.py
+Traceback (most recent call last):
+  File "/home/ybwr/pymacs/py-cs50/Cirkle.py", line 13, in <module>
+    radie_float = float(radie_str)
+                  ^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'python3 Cirkle.py'
+~/pymacs/py-cs50 $ python3 Cirkle.py
+Hi let's try and calculate the circumference of a circle OR the area.
+What is the diameter of said circle? 
+3
+Do you wish to know the area or the circumference?
+area
+The area of such circle is 
+7.0685834705770345
+Traceback (most recent call last):
+  File "/home/ybwr/pymacs/py-cs50/Cirkle.py", line 26, in <module>
+    print("The area of such circle is ") + print(str(circle_area))
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'NoneType'
+~/pymacs/py-cs50 $ python3 Cirkle.py
+Hi let's try and calculate the circumference of a circle OR the area.
+What is the diameter of said circle? 
+2
+Do you wish to know the area or the circumference?
+area
+The area of such circle is 
+3.141592653589793
+Traceback (most recent call last):
+  File "/home/ybwr/pymacs/py-cs50/Cirkle.py", line 26, in <module>
+    print("The area of such circle is ") * print(str(circle_area))
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for *: 'NoneType' and 'NoneType'
+~/pymacs/py-cs50 $ python3 Cirkle.py
+Hi let's try and calculate the circumference of a circle OR the area.
+What is the diameter of said circle? 
+3
+Do you wish to know the area or the circumference?
+area
+The area of such circle is 
+7.0685834705770345
+Traceback (most recent call last):
+  File "/home/ybwr/pymacs/py-cs50/Cirkle.py", line 33, in <module>
+    print (cirkle_area)
+           ^^^^^^^^^^^
+NameError: name 'cirkle_area' is not defined. Did you mean: 'circle_area'?
+~/pymacs/py-cs50 $ python3 Cirkle.py
+Hi let's try and calculate the circumference of a circle OR the area.
+What is the diameter of said circle? 
+10
+Do you wish to know the area or the circumference?
+area
+The area of such circle is 
+78.53981633974483
+78.53981633974483
+5.0
+~/pymacs/py-cs50 $ python3 Cirkle.py
+Hi let's try and calculate the circumference of a circle OR the area.
+What is the diameter of said circle? 
+4
+Do you wish to know the area or the circumference?
+area
+The area of such circle is 
+12.566370614359172
+~/pymacs/py-cs50 $ python3 Cirkle.py
+Hi let's try and calculate the circumference of a circle OR the area.
+What is the diameter of said circle? 
+4
+Do you wish to know the area or the circumference?
+The muthafukking areA
+The area of such circle is 
+12.566370614359172
+~/pymacs/py-cs50 $ python3 Cirkle.py
+Hi let's try and calculate the circumference of a circle OR the area.
+What is the diameter of said circle? 
+8
+Do you wish to know the area or the circumference?
+The motherfukking Area bitch
+The area of such circle is 
+50.26548245743669
+~/pymacs/py-cs50 $ python3 Cirkle.py
+  File "/home/ybwr/pymacs/py-cs50/Cirkle.py", line 30
+    print("The circuference of such circle is "
+         ^
+SyntaxError: '(' was never closed
+~/pymacs/py-cs50 $ python3 Cirkle.py
+  File "/home/ybwr/pymacs/py-cs50/Cirkle.py", line 31
+    print(circle_circumference)
+IndentationError: unexpected indent
+~/pymacs/py-cs50 $ python3 Cirkle.py
+  File "/home/ybwr/pymacs/py-cs50/Cirkle.py", line 31
+    print(str(circle_circumference))
+IndentationError: unexpected indent
+~/pymacs/py-cs50 $ python3 Cirkle.py
+  File "/home/ybwr/pymacs/py-cs50/Cirkle.py", line 31
+    print(circle_circumference)
+IndentationError: unexpected indent
+~/pymacs/py-cs50 $ python3 Cirkle.py
+Hi let's try and calculate the circumference of a circle OR the area.
+What is the diameter of said circle? 
+5
+Do you wish to know the area or the circumference?
+the circumference if you would be so kind good sir
+The circumference of such circle is 
+15.707963267948966
+~/pymacs/py-cs50 $ python3 Cirkle.py
+Hi let's try and calculate the circumference of a circle OR the area.
+What is the diameter of said circle? 
+47
+Do you wish to know the area or the circumference?
+area
+The area of such circle is 
+1734.9445429449634
+~/pymacs/py-cs50 $ python3 Cirkle.py
+Hi let's try and calculate the circumference of a circle OR the area.
+What is the diameter of said circle? 
+47
+Do you wish to know the area or the circumference?
+circumference
+The circumference of such circle is 
+147.6548547187203
+~/pymacs/py-cs50 $ ls
+#hello.py#  Cirkle.py  Cirkle.py~  hello.py  hello.py~
+~/pymacs/py-cs50 $ 
