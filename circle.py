@@ -1,4 +1,4 @@
-""" circle.py ¤%&hello moterFakkas"#&, && = AND, || = OR, in comments.
+""" circle.py && = AND, || = OR, in comments.
 Author: ybwrdwg
 
 Abstract: Asks the user for the diameter of a circle.
