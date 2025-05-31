@@ -33,7 +33,6 @@ class Die:
         self.random_value = 1
         def die-print(input("number")):
             y = int(input)
-            
             print(y):
 
 # Roll the die
