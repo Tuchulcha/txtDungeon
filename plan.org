@@ -2,9 +2,23 @@
 A simple game for learning a bit of python and how to use git and github together. This document is for making some sort of starting outline of the project.
 ** Overview
 A text based game where you create a character and fight monsters one by one until you win or until you die. 
+** Code style
+Apparently we are doing Class objects with first letter capital syntax.
+Examples: Map, Die, Character
+May I suggest function name syntax: all lower-case letters, "-" between tags
+Example: this-function-foo
+And for variables i suggest all lower-case letters, "_" between tags
+Example: number_of_sides_foo
 *** Design in the form of questions:
 How much is rng?
+** Global functions
+*** python id()
+*** imports
+**** math
+**** random
 ** Classes
+*** Map
+*** Die
 *** Character
 *** Monster
 *** Item
