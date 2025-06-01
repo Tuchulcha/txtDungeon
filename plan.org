@@ -14,6 +14,7 @@ Vertical spacing: I suggest vertical spacing between blocks of code for better
 readability and seeing patterns in the code for how it's implemented.
 
 -- Code should aim for minimal sideeffects --
+-- Code should aim for containing sideeffects either in main function or in separate files
 
 
 ** Program structure / dirs&files
