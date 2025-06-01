@@ -9,6 +9,17 @@ May I suggest function name syntax: all lower-case letters, "-" between tags
 Example: this-function-foo
 And for variables i suggest all lower-case letters, "_" between tags
 Example: number_of_sides_foo
+
+Vertical spacing: I suggest vertical spacing between blocks of code for better
+readability and seeing patterns in the code for how it's implemented.
+
+-- Code should aim for minimal sideeffects --
+
+
+** Program structure / dirs&files
+
+Keep `txtDungeon dir' 'clean' : create folders and moves files there, except some main.
+
 *** Design in the form of questions:
 How much is rng?
 ** Global functions
@@ -31,8 +42,11 @@ How much is rng?
 *** Die
 *** Character
 **** name
-**** ItemBar
+**** position
 **** CharStatPoints
+linked list [int points, str "stat_nametag"]
+like [{15:dextarity}{18:strength}{66:int}] //dunno syntax, do-look-up
+**** ItemBar
 ***** str
 ***** dex
 ***** int
