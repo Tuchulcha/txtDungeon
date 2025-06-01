@@ -1,3 +1,9 @@
-import importlib
-moduleName = input("Enter module name:")
-importlib.import_module(moduleName)
+#import modules
+import importlib as il
+import random
+import math
+import tkinter as tk
+root = tk.Tk()
+root.geometry("500x500")
+root.title("txtDungeon")
+root.mainloop()
