@@ -1,3 +1,7 @@
 Vill du klistra länkar? skriva en roman? go bananas, se detta som en gigantisk whiteboard.
 
 https://docs.python-guide.org/writing/structure/ Den här var intressant
+
+https://github.com/pre-commit/pre-commit-hooks - Den här med 
+
+https://github.com/nektos/act - Denna också

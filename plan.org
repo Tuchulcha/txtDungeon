@@ -13,6 +13,9 @@ Example: number_of_sides_foo
 Vertical spacing: I suggest vertical spacing between blocks of code for better
 readability and seeing patterns in the code for how it's implemented.
 
+TK : I suggest using PEP 8  https://peps.python.org/pep-0008/ for naming conventions and black for code style https://black.readthedocs.io/en/stable/the_black_code_style/current_style.html
+I'm not sure how it differs exactly from your suggestions other than "_" instead of "-" om variable names. The main upside is that
+
 -- Code should aim for minimal sideeffects --
 -- Code should aim for containing sideeffects either in main function or in separate files
 
