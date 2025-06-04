@@ -5,11 +5,12 @@ The class Die
 """
 import random
 
+
 class Die:
     def __init__(self, number_of_sides, facevalue=1): # default facevalue
         self.number_of_sides = number_of_sides
         self.facevalue = facevalue # Initial face value (e.g., 1 when created)
-           def roll(self): 
+    def roll(self): 
         """Rolls the die and sets the facevalue to a random number."""
         self.facevalue = random.randint(1, self.number_of_sides)
         return self.facevalue
@@ -28,12 +29,13 @@ my_die = Die(6)
 print(my_die) # Output: A 6-sided die showing 1 (or whatever default you set)
 class Die:
     def __init__(self, number_of_sides, facevalue):
-        self.number_of_sides = numbers_of_sides
+        #self.number_of_sides = numbers_of_sides
         self.facevalue = facevalue
         self.random_value = 1
-        def die-print(input("number")):
-            y = int(input)
-            print(y):
+    #def die-print(input("number")):
+        #y = int(input)
+        #print(y):
+
 
 # Roll the die
 print(f"Rolling the die... it landed on: {my_die.roll()}")
