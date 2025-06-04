@@ -1,0 +1,30 @@
+[tool.ruff]
+target-version = "py311"
+line-length = 88
+
+[tool.ruff.lint]
+select = [
+    "E",  # pycodestyle errors
+    "W",  # pycodestyle warnings
+    "F",  # pyflakes
+    "N",  # naming (PEP 8)
+    "I",  # isort
+    "B",  # flake8-bugbear
+    "C4", # comprehensions
+    #"UP", # pyupgrade
+]
+ignore = [
+    "E501",  # line too long (Black/Ruff-format handles this)
+    "B008",  # function call in default args
+    "C901",  # too complex
+]
+
+[tool.ruff.format]
+quote-style = "double"
+line-ending = "lf"
+indent-style = "space"
+
+
+
+# [tool.ruff.lint.pyupgrade] # Needed if "UP" is used
+# keep-runtime-typing = true # Needed if "UP" is used
