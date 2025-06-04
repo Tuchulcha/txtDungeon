@@ -1,0 +1,3 @@
+# requirements-dev.txt
+ruff==0.11.12
+pre-commit
