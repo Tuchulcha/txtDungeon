@@ -1,4 +1,4 @@
-""" circle.py && = AND, || = OR, in comments.
+"""circle.py && = AND, || = OR, in comments.
 Author: ybwrdwg
 
 Abstract: Asks the user for the diameter of a circle.
@@ -16,9 +16,11 @@ import math
 # Stores answer,convert to radius
 # , && convert it's datatype: str -> float in: radie_float
 
-radie_str = input("Hi let's try and calculate the circumference of a circle OR the area.\nWhat is the diameter of said circle? \n")
+radie_str = input(
+    "Hi let's try and calculate the circumference of a circle OR the area.\nWhat is the diameter of said circle? \n"
+)
 
-radie_float = (float(radie_str))/2
+radie_float = (float(radie_str)) / 2
 
 # Ask the user if it wants to know the area || the circumference
 # Make the answer lower case and match the phrases area && circumference
@@ -27,11 +29,13 @@ radie_float = (float(radie_str))/2
 # Compare  the answer to a if/else statements and return correct answer
 # ,else return "error"
 
-choose_area_or_circumference =(input("Do you wish to know the area OR the circumference?\n"))
+choose_area_or_circumference = input(
+    "Do you wish to know the area OR the circumference?\n"
+)
 
-circle_area = (math.pi)*((radie_float)**2)
+circle_area = (math.pi) * ((radie_float) ** 2)
 
-circle_circumference = (math.pi)*(radie_float)*2
+circle_circumference = (math.pi) * (radie_float) * 2
 
 choice = choose_area_or_circumference.lower()
 
@@ -43,7 +47,7 @@ else:
         print("The circumference of such circle is ")
         print(circle_circumference)
     else:
-        print ("error")
+        print("error")
 
 
-#test for ruff
+# test for ruff

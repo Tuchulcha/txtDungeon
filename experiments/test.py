@@ -1,3 +1,3 @@
-print ("hello ")
+print("hello ")
 
-#test for ruff
+# test for ruff
