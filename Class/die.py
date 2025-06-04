@@ -29,12 +29,12 @@ my_die = Die(6)
 print(my_die) # Output: A 6-sided die showing 1 (or whatever default you set)
 class Die:
     def __init__(self, number_of_sides, facevalue):
-        #self.number_of_sides = numbers_of_sides
+        #self.number_of_sides = numbers_of_sides commented out to not trigger ruff error
         self.facevalue = facevalue
         self.random_value = 1
-    #def die-print(input("number")):
-        #y = int(input)
-        #print(y):
+    #def die-print(input("number")): commented out to not trigger ruff error
+        #y = int(input) commented out to not trigger ruff error
+        #print(y): commented out to not trigger ruff error
 
 
 # Roll the die
