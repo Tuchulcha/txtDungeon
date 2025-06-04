@@ -1,6 +1,15 @@
 default_language_version:
   python: default
 
+# Note on language version:
+# `default_language_version` is set to "default" to allow the pre-commit hooks
+# to use the interpreter from the currently active environment. This improves
+# compatibility across systems:
+# - Locally, it uses the developer's active Python (e.g. 3.13 in Conda)
+# - In GitHub Actions, it uses the job Python (e.g. 3.11)
+# - In pre-commit.ci, it avoids errors when the exact version is unavailable
+# This trades off strict reproducibility for convenience and compatibility.
+
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v5.0.0
