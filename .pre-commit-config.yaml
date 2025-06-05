@@ -17,7 +17,9 @@ repos:
       - id: check-added-large-files
         args: ["--maxkb=2500"]
       - id: end-of-file-fixer
+        exclude: '\.org$'
       - id: trailing-whitespace
+        exclude: '\.org$'
       - id: check-toml
       - id: check-yaml
         args: ["--unsafe"]
