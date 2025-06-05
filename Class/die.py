@@ -53,3 +53,10 @@ print(f"Rolling a D20... it landed on: {d20.roll()}")
 print(d20.get_facevalue())
 
 # test for ruff
+
+
+def testrufffail():
+    return 1 + 1
+
+
+# This function is just to trigger a ruff error for testing purposes
