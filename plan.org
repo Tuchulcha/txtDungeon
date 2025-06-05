@@ -45,10 +45,19 @@ How much is rng?
 ***** n
 ***** s
 *** Map
+
+
+**** MapChunk
+Forest
+Mountain
+Meddow
+riverland
+Dungeon
+cellblocks
+old barracks
 *** Die
 *** Character
 **** name
-**** position
 **** CharStatPoints
 linked list [int points, str "stat_nametag"]
 like [{15:dextarity}{18:strength}{66:int}] //dunno syntax, do-look-up
