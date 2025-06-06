@@ -62,6 +62,7 @@ old barracks
 linked list [int points, str "stat_nametag"]
 like [{15:dextarity}{18:strength}{66:int}] //dunno syntax, do-look-up
 **** ItemBar
+**** Inventory <- Unlimited or with defined restrictions?
 ***** str
 ***** dex
 ***** int
