@@ -7,3 +7,5 @@ https://github.com/pre-commit/pre-commit-hooks - Den här med
 https://github.com/nektos/act - Denna också
 
 https://www.youtube.com/watch?v=hxGOiiR9ZKg "The Flaws of Inheritance"
+
+https://softwarecrisis.dev/letters/ai-and-software-quality/
