@@ -28,6 +28,8 @@ Keep `txtDungeon dir' 'clean' : create folders and moves files there, except som
 
 *** Design in the form of questions:
 How much is rng?
+is it  dice based?
+should we hammer out the rules before trying to implement ?
 ** Global functions
 *** python id()
 *** imports
